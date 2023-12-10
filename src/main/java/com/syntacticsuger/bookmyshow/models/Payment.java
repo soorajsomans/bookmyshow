@@ -5,7 +5,6 @@ import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import lombok.Getter;
 import lombok.Setter;
-import org.antlr.v4.runtime.atn.SemanticContext;
 
 @Getter
 @Setter
