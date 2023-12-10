@@ -11,8 +11,10 @@ import lombok.Setter;
 @Setter
 @Entity
 public class ShowSeat extends BaseModel{
+    //one showSeat object contains only one show but one show can be in multiple showSeat objects
     @ManyToOne
     private Show show;
+    // one showSeat object contain only one seat but one seat can be part of multiple showSeat objects
     @ManyToOne
     private Seat seat;
     @Enumerated(EnumType.ORDINAL)
